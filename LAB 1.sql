@@ -29,7 +29,8 @@ SELECT
 FROM "alanparadise/nw"."products";
 
 
--Q4) For all employees at Northwinds, list the first name and last name concatenated together with a blank space in-between with a column header “Name”, and the name of the month (spelled out) for each employee’s birthday.  
+-Q4) For all employees at Northwinds, list the first name and last name concatenated together with a blank space in-between with a column header “Name”,
+and the name of the month (spelled out) for each employee’s birthday.  
 
 SELECT
 	concat(firstname, ' ', lastname) as "Name",
