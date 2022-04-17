@@ -3,9 +3,9 @@ Lab 2 SELECT queries using the WHERE clause
 -Q1) List the customerid, companyname, and country for all customers NOT in the U.S.A.
 
 SELECT
-  customerid,
-  companyname,
-  country
+	customerid,
+	companyname,
+	country
 FROM "alanparadise/nw"."customers"
 WHERE country <> 'USA';
 
