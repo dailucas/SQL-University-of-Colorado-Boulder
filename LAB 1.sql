@@ -19,7 +19,7 @@ SELECT
 FROM "alanparadise/nw"."employees";
 
 
--Q3) For all products in the Northwinds database, list the productname, unitprice, unitsinstock,  and the total value of the inventory of that product as “Total Value”.  (HINT:  total value = unitsinstock * unitprice.) 
+-Q3) For all products in the Northwinds database, list the productname, unitprice, unitsinstock,  and the total value of the inventory of that product as “Total Value”. 
 
 SELECT
 	productname,
